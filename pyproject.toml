@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "training-gate"
+version = "0.1.0"
+description = "Structured quality gates for model fine-tuning — behavioral comparison that catches collapses invisible to loss curves"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Yuhao Lin"}]
+keywords = ["fine-tuning", "quality-gate", "behavioral-comparison", "lora"]
+dependencies = ["torch", "transformers", "peft"]
+
+[project.optional-dependencies]
+demo = ["modelscope"]
+dev = ["pytest"]
