@@ -1,6 +1,7 @@
 # training-gate
 
-**Structured quality gates for model fine-tuning.** Maps delivery-gate architecture (proven in Agent workflows) to ML training pipelines.
+> **Loss curves lie.** Your loss drops from 9.2 to 8.8. But every output became `199999...` — and perplexity never flagged it.
+> This tool adds behavioral quality gates that catch what loss curves miss.
 
 ## What
 
