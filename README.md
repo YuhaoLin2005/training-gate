@@ -45,15 +45,6 @@ pip install torch transformers peft modelscope
 python examples/train_with_gates.py
 ```
 
-## Architecture Mapping
-
-| training-gate | delivery-gate (Agent) | Production ML |
-|--------------|----------------------|---------------|
-| Gate 0: health | Pre-Task Calibration | Env validation |
-| Gate 1: monitor | Stale detection | EarlyStopping |
-| Gate 2: verify | Delivery Verification | Model validation |
-| Gate 3: audit | Regeneration log | W&B / MLflow |
-
 ## License
 
 MIT
