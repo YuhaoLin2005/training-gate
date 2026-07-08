@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+gate-demo-ckpt/
+training-gate-audit.jsonl
+training-gate-summary.json
+gate-demo-out/
